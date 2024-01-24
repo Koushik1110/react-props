@@ -2,6 +2,7 @@ import React from 'react'
 
 //state receiving
 const Child= ({message, setMessage}) => {
+  setMessage("hello")
   return (
     <div>
       {/* state consumption */}
